@@ -8,6 +8,7 @@ body {
 .btn-primary{
     border-radius: 5px;
     background: #FD6E0A;
+    border: 0;
     color: white;
     font-size: 20px;
     font-style: normal;
@@ -17,6 +18,8 @@ body {
 /* nav related styles */
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .nav-title{
     color: var(--Dark-01, #181818);
@@ -25,6 +28,7 @@ nav{
 }
 nav > ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
