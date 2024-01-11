@@ -2,10 +2,12 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -15,110 +17,175 @@ body {
     font-weight: 700;
     padding: 15px 35px;
 }
-.section-title{
+
+.section-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
 }
-.section-desc{
-    color:  #757575;
+
+.section-desc {
+    color: #757575;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
 }
+
 /* nav related styles */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
 }
-.nav-title{
+
+.nav-title {
     color: var(--Dark-01, #181818);
     font-size: 45px;
     font-weight: 800;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
-    color:#474747;
+    color: #474747;
 }
+
 /* header related styles */
-.header{
+.header {
     background-color: #FFF8F3;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position:bottom right;
+    background-position: bottom right;
 }
-.banner{
+
+.banner {
     display: flex;
     padding: 30px 30px 0px 150px;
     align-items: center;
     justify-content: space-between;
 }
-.banner-content{
+
+.banner-content {
     max-width: 585px;
 }
-.banner .profile-pic{
+
+.banner .profile-pic {
     width: 584px;
     height: 676px;
 }
-.banner-greeting{
+
+.banner-greeting {
     font-size: 45px;
     color: #474747;
     margin-bottom: 0;
 }
-.banner-title{
+
+.banner-title {
     font-size: 85px;
     font-weight: 700;
     color: #181818;
     margin-top: 5px;
     margin-bottom: 20px;
 }
-.banner .banner-desc{
-    margin-top:0;
+
+.banner .banner-desc {
+    margin-top: 0;
     margin-bottom: 30px;
 }
-.banner .btn-primary:nth-of-type(1){
+
+.banner .btn-primary:nth-of-type(1) {
     margin-right: 30px;
 }
 
 /* main section styles */
-main{
+main {
     max-width: 1140px;
-    margin: 0 auto; /* We could have given display:flex then align-items or justify-content, however it is easier to do this*/
+    margin: 0 auto;
+    /* We could have given display:flex then align-items or justify-content, however it is easier to do this*/
 }
+
+.main section {
+    margin-top: 130px;
+}
+
 /* About section styles */
-.about{
+.about {
     padding: 131px 156px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
-.about-info>h4{
+
+.about-info>h4 {
     color: #757575;
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 0;
 }
-.about-info>p{
+
+.about-info>p {
     color: #474747;
     font-size: 20px;
     font-weight: 700;
-    margin-top:0;
+    margin-top: 0;
+}
+
+/* skills related styles */
+
+.what-I-do>.section-title {
+    margin-bottom: 0;
+    border: 0;
+}
+
+#what-I-do-desc {
+    padding: 30px 115px 50px;
+}
+
+.skills-container {
+    display: flex;
+    /* Giving gap between the 4 items */
+    gap: 24px;
+    /*This is related to the CSS Flexbox which will be explained better in Milestone 2*/
+}
+
+.skills {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-desc {
+    color: #757575;
+}
+
+/* Resume related styles */
+.resume-container {
+    display: flex;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
