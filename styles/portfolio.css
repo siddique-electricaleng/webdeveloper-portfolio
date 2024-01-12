@@ -222,7 +222,37 @@ main {
 /* footer styles */
 footer {
     display: flex;
+    gap: 117px;
     background: #FFF8F3;
     margin-top: 131px;
     padding: 130px 230px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.social-links a {
+    margin-right: 24px;
+}
+
+.section-title,
+.section-desc {
+    text-align: left;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    color: #757575;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 400;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
 }
