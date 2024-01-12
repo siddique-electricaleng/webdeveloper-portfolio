@@ -218,3 +218,11 @@ main {
     text-align: center;
     margin-top: 50px;
 }
+
+/* footer styles */
+footer {
+    display: flex;
+    background: #FFF8F3;
+    margin-top: 131px;
+    padding: 130px 230px;
+}
